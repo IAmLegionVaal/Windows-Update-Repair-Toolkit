@@ -1,8 +1,10 @@
 # Windows Update Repair Toolkit
 
+> **Legacy menu-driven edition:** This repository remains available for users who prefer the original menu-based reporting toolkit. The current focused single-run repair project is [Windows Update Repair](https://github.com/IAmLegionVaal/Windows-Update-Repair).
+
 A menu-driven PowerShell toolkit for L1/L2 IT support Windows Update troubleshooting.
 
-This project helps collect Windows Update support evidence for common helpdesk scenarios, including update service state, pending restart indicators, disk space, update history, hotfix inventory, BITS job state, Windows Update event logs, and component store health.
+This project helps collect Windows Update support evidence for common helpdesk scenarios, including update service state, pending restart indicators, disk space, update history, hotfix inventory, BITS job state, Windows Update event logs and component store health.
 
 ## Features
 
@@ -19,7 +21,7 @@ This project helps collect Windows Update support evidence for common helpdesk s
 - SFC and DISM maintenance options with confirmation
 - Windows Update cache maintenance guidance with confirmation
 - Open Windows Update settings
-- HTML, CSV, JSON, TXT, and log output
+- HTML, CSV, JSON, TXT and log output
 
 ## Requirements
 
@@ -64,7 +66,11 @@ powershell.exe -ExecutionPolicy Bypass -File .\Windows_Update_Repair_Toolkit.ps1
 
 Reports are saved on the desktop in `Windows_Update_Repair_Reports` by default.
 
-## Suggested repo topics
+## Current alternative
+
+Use [Windows Update Repair](https://github.com/IAmLegionVaal/Windows-Update-Repair) for the newer no-menu workflow with direct parameters, logs, guarded repair mode, preview support and meaningful exit codes.
+
+## Suggested repository topics
 
 ```text
 powershell
